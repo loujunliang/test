@@ -77,7 +77,5 @@ public class AdminController {
 		// ³É¹¦µÇÂ¼
 
 		return "redirect:../cost/list.do2ffffff";
-
-
 	}
 }
