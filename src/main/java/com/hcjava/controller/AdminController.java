@@ -75,6 +75,6 @@ public class AdminController {
 		Admin admin = adminService.checkNamePwd(name, password);
 		session.setAttribute("admin", admin);
 		// ³É¹¦µÇÂ¼
-		return "redirect:../cost/list.dogggggggggggg";
+		return "redirect:../cost/list.dogggggggggggg11";
 	}
 }
