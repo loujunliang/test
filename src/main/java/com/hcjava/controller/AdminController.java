@@ -76,7 +76,7 @@ public class AdminController {
 		session.setAttribute("admin", admin);
 		// ³É¹¦µÇÂ¼
 
-		return "redirect:../cost/list.do22222222aaaaaaaa";
+		return "redirect:../cost/list.do22222222aaaaaaaa1";
 
 
 	}
