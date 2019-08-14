@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<!-- namespace:对应接口的位置 -->
+<mapper namespace="com.hcjava.dao.CostDao">
+	<!-- id：接口中对应的方法名 -->
+	<!-- resultType:接口中对应方法返回值类型 -->
+	<!-- parameterType:接口中对应方法的参数类型 -->
+	<select id="findAll" resultType="com.hcjava.entity.Cost">
+		select id,name,status,createtime,starttime,type from cost
+	</select>
+	
+</mapper>
