@@ -76,6 +76,6 @@ public class AdminController {
 		session.setAttribute("admin", admin);
 		// ³É¹¦µÇÂ¼
 		System.out.println();
-		return "redirect:../cost/list.do";
+		return "redirect:../cost/list.do1111111111";
 	}
 }

@@ -18,6 +18,7 @@ public class TestCase {
 			System.out.println(num[i]);
 			
 		}
+		System.out.println("");
 		
 	}
 	
