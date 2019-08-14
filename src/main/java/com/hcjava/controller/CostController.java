@@ -21,6 +21,6 @@ public class CostController {
 	public String list(ModelMap model){
 		List<Cost> costs = costService.findAll();
 		model.addAttribute("costs", costs);
-		return "main/cost";
+		return "main/cosddsadasdasdasdghjhkl123t";
 	}
 }
